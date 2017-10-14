@@ -1,7 +1,6 @@
 package com.company.gamescene;
 
-import com.company.graphics.BackGround;
-import com.company.player.Dragon;
+import com.company.player.Player;
 import com.company.utils.GameRect;
 import com.company.utils.SpriteRender;
 import com.company.utils.Utils;
@@ -20,7 +19,7 @@ public class Level1Scene implements GameScene {
         background = Utils.loadImage("res/backgroundgame.jpg");
     }
     SpriteRender spriteRender = new SpriteRender("res/Player/player_down2.png");
-    public Dragon dragon = new Dragon(new GameRect(50,20
+    public Player player = new Player(new GameRect(50,20
             ,spriteRender.getImage().getWidth(null)
             ,spriteRender.getImage().getHeight(null))
             ,spriteRender);
