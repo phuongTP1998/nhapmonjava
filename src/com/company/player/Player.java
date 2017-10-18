@@ -3,6 +3,7 @@ package com.company.player;
 import com.company.InputManager;
 import com.company.controller.Controller;
 import com.company.controller.ControllerManager;
+import com.company.gamescene.Level1Scene;
 import com.company.graphics.Animation;
 import com.company.utils.GameObject;
 import com.company.utils.GameRect;
@@ -16,16 +17,22 @@ import java.util.ArrayList;
  * Created by trongphuong1011 on 10/9/2017.
  */
 public class Player extends GameObject {
+
     private int dx, dy;
+
     private GameRect gameRect;
     private Animation animationLeft, animationRight, animationUp, animationDown;
     private Animation animationStayLeft, animationStayRight, animationStayUp, animationStayDown;
-    private boolean isLeft,isRight,isUp,isDown;
+    private boolean isLeft, isRight, isUp, isDown;
     private boolean isMoved = false;
+    private Image image = Utils.loadImage("res/Player/player_down2.png");
+    private int mass;
+    private int speedY;
 
-    public Player(GameRect gameRect, SpriteRender spriteRender) {
+    public Player(GameRect gameRect, SpriteRender spriteRender, int mass) {
         super(gameRect, spriteRender);
         this.gameRect = gameRect;
+        this.mass = mass;
 
         //TODO: đoạn này animation khi đang move
         ArrayList<Image> imagesLeft = new ArrayList<>();
@@ -89,23 +96,32 @@ public class Player extends GameObject {
         return gameRect;
     }
 
+    boolean start = true;
+
     @Override
     public void draw(Graphics graphics) {
+        if (start) {
+            graphics.drawImage(image, 450, 300, null);
+        }
         if (isMoved) {
             if (isLeft) {
                 animationLeft.draw(graphics, gameRect);
+                start = false;
             }
             if (isRight) {
                 animationRight.draw(graphics, gameRect);
+                start = false;
             }
             if (isDown) {
                 animationDown.draw(graphics, gameRect);
+                start = false;
             }
             if (isUp) {
                 animationUp.draw(graphics, gameRect);
+                start = false;
             }
         }
-        if(!isMoved){
+        if (!isMoved) {
             if (isLeft) {
                 animationStayLeft.draw(graphics, gameRect);
             }
@@ -121,46 +137,59 @@ public class Player extends GameObject {
         }
     }
 
+    boolean isLanded = false;
+
     @Override
     public void update() {
-        dx=0;
-        if(!InputManager.getInstance().isRight()
-                &&!InputManager.getInstance().isLeft()
-                &&!InputManager.getInstance().isUp()
-                &&!InputManager.getInstance().isDown()){
+        dx = 0;
+        if (gameRect.getY() <= Level1Scene.BORDER_DOWN) {
+            if(!isLanded){
+                gameRect.move(0, mass);
+                ++mass;
+                if(mass>3){
+                    mass = 3;
+                }
+            }
+        }
+
+        if (!InputManager.getInstance().isRight()
+                && !InputManager.getInstance().isLeft()
+                && !InputManager.getInstance().isUp()
+                && !InputManager.getInstance().isDown()) {
             isMoved = false;
         }
-        if(InputManager.getInstance().isRight()){
-            gameRect.move(3,0);
+        if (InputManager.getInstance().isRight() && gameRect.getX() <= Level1Scene.BORDER_RIGHT) {
+            gameRect.move(3, 0);
             isRight = true;
             isLeft = false;
             isDown = false;
             isUp = false;
             isMoved = true;
         }
-        if(InputManager.getInstance().isLeft()){
-            gameRect.move(-3,0);
+        if (InputManager.getInstance().isLeft() && gameRect.getX() >= Level1Scene.BORDER_LEFT) {
+            gameRect.move(-3, 0);
             isLeft = true;
             isRight = false;
             isDown = false;
             isUp = false;
             isMoved = true;
         }
-        if(InputManager.getInstance().isDown()){
-            gameRect.move(0,3);
-            isRight = false;
-            isLeft = false;
-            isDown = true;
-            isUp = false;
-            isMoved = true;
-        }
-        if(InputManager.getInstance().isUp()){
-            gameRect.move(0,-3);
+//        if (InputManager.getInstance().isDown() && gameRect.getY() <= Level1Scene.BORDER_DOWN) {
+//            gameRect.move(0, 3);
+//            isRight = false;
+//            isLeft = false;
+//            isDown = true;
+//            isUp = false;
+//            isMoved = true;
+//        }
+        if (InputManager.getInstance().isUp() && gameRect.getY() >= Level1Scene.BORDER_UP) {
+            gameRect.move(0, -3);
             isRight = false;
             isLeft = false;
             isDown = false;
             isUp = true;
             isMoved = true;
+            mass =1;
         }
     }
 }

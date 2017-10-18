@@ -5,6 +5,7 @@ import com.company.gamescene.GameScene;
 import com.company.gamescene.Level1Scene;
 import com.company.utils.GameObject;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -18,6 +19,8 @@ import java.awt.image.BufferedImage;
 public class GameWindow extends Frame {
     BufferedImage bufferedImage;
     Graphics bufferedGraphics;
+    public static final int SCREEN_WIDTH = 1000;
+    public static final int SCREEN_HEIGHT = 700;
 
     InputManager inputManager;
     GameScene currentScene;
@@ -27,7 +30,10 @@ public class GameWindow extends Frame {
 
     public GameWindow() {
         setVisible(true);
-        setSize(1000, 700);
+        Toolkit tookit = this.getToolkit();
+        Dimension dimension = tookit.getScreenSize();
+        this.setBounds((dimension.width - SCREEN_WIDTH) / 2, (dimension.height - SCREEN_HEIGHT) / 2
+                , SCREEN_WIDTH, SCREEN_HEIGHT);
         inputManager = new InputManager();
         instance = this;
         currentScene = new Level1Scene();
@@ -112,7 +118,7 @@ public class GameWindow extends Frame {
     @Override
     public void update(Graphics g) {
         currentScene.draw(bufferedGraphics);
-//        GameObject.drawAll(bufferedGraphics);
+        GameObject.drawAll(bufferedGraphics);
         ControllerManager.instance.draw(bufferedGraphics);
         g.drawImage(bufferedImage,0,0,null);
     }
