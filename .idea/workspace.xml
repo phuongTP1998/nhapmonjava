@@ -2,17 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3ec2b-11c8-46b3-99b7-a26ffd700637" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Map.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../nhapmonjava/res/backgroundgame.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/Mushroom_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/Mushroom_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bird/bird_right_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/bomb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/button/left-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/button/right-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/button/space-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/button/up-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/hp1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/playerFace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/soundtrackGAME.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_right_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/CollisionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBird.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBullet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FallBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FlyBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/MoveBehavior.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow$1.class" afterPath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow$2.class" afterPath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow$3.class" afterPath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow.class" afterPath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/GameWindow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/gamescene/Level1Scene.class" afterPath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/gamescene/Level1Scene.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/player/Player.class" afterPath="$PROJECT_DIR$/../nhapmonjava/out/production/nhapmonjava/com/company/player/Player.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../nhapmonjava/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java" afterPath="$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../nhapmonjava/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,82 +74,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/graphics/Animation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/InputManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-              <folding>
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level1Scene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackGround.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/graphics/BackGround.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/ControllerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="183" selection-end-column="11" />
+            <state relative-caret-position="371">
+              <caret line="250" column="0" lean-forward="true" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,12 +86,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameRect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/GameRect.java">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="643">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level1Scene.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="walkEnemy_left_1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyBird.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBird.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-496">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FallBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FallBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlyBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FlyBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +160,20 @@
       <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="70">
+              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyBullet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +209,6 @@
       <list>
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/GameScene.java" />
-        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/SpriteRender.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Controller.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/Controller.java" />
@@ -171,10 +221,18 @@
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Dragon.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/graphics/Animation.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Map.java" />
-        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/graphics/BackGround.java" />
-        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/CollisionManager.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/MoveBehavior.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBullet.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FallBehavior.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBird.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyController.java" />
         <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java" />
+        <option value="$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java" />
       </list>
     </option>
   </component>
@@ -205,9 +263,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -362,24 +420,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nhapmonjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nhapmonjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -389,11 +429,12 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\nhapmonjava\res" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.player" />
+      <recent name="com.company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -818,11 +859,12 @@
       <workItem from="1507889173865" duration="3550000" />
       <workItem from="1507897576025" duration="2783000" />
       <workItem from="1508287131876" duration="6533000" />
+      <workItem from="1508638161287" duration="6043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24054000" />
+    <option name="totallyTimeSpent" value="30097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -837,26 +879,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -874,94 +916,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/GameScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/ControllerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/backgroundgame.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/GameRect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/GameScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/ControllerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -988,11 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/backgroundgame.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/backgroundgame.jpg" />
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -1007,10 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,20 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/Collider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/avatar.jpg" />
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1154,11 +1087,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/backgroundgame.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/backgroundgame.jpg" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1183,16 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/Player/player_left2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1210,7 +1129,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/ControllerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="697">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1220,7 +1139,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="136">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1234,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="72" column="19" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,30 +1166,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/InputManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="884">
           <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding>
             <element signature="e#1492#1493#0" expanded="true" />
             <element signature="e#1519#1520#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/graphics/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,13 +1183,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java">
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/Collider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="183" selection-end-column="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/controller/CollisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/graphics/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/MoveBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/FallBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/bird/bird_left_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/res/walkEnemy/walkEnemy_left_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyBird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/EnemyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="250" column="0" lean-forward="true" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nhapmonjava/src/com/company/gamescene/Level1Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,8 @@
 package com.company.player;
 
 import com.company.InputManager;
+import com.company.controller.Collider;
+import com.company.controller.CollisionManager;
 import com.company.controller.Controller;
 import com.company.controller.ControllerManager;
 import com.company.gamescene.Level1Scene;
@@ -16,7 +18,7 @@ import java.util.ArrayList;
 /**
  * Created by trongphuong1011 on 10/9/2017.
  */
-public class Player extends GameObject {
+public class Player extends GameObject implements Collider {
 
     private int dx, dy;
 
@@ -27,7 +29,10 @@ public class Player extends GameObject {
     private boolean isMoved = false;
     private Image image = Utils.loadImage("res/Player/player_down2.png");
     private int mass;
-    private int speedY;
+    private Image hp1, avatar;
+    boolean start = true;
+    int playerHP = 10;
+    private final int BorderHP = 645;
 
     public Player(GameRect gameRect, SpriteRender spriteRender, int mass) {
         super(gameRect, spriteRender);
@@ -89,19 +94,24 @@ public class Player extends GameObject {
             imagesStayRight.add(Utils.loadImage("res/Player/player_right2.png"));
         }
         animationStayRight = new Animation(imagesStayRight);
+        CollisionManager.instance.add(this);
         ControllerManager.instance.add(this);
+        hp1 = Utils.loadImage("res/hp1.png");
+        avatar = Utils.loadImage("res/playerFace.png");
     }
 
     public GameRect getGameRect() {
         return gameRect;
     }
 
-    boolean start = true;
+    public void getHit(int damage) {
+        gameRect.setDead(true);
+    }
 
     @Override
     public void draw(Graphics graphics) {
         if (start) {
-            graphics.drawImage(image, 450, 300, null);
+            graphics.drawImage(image, 450, 490, null);
         }
         if (isMoved) {
             if (isLeft) {
@@ -135,6 +145,38 @@ public class Player extends GameObject {
                 animationStayUp.draw(graphics, gameRect);
             }
         }
+
+        graphics.drawImage(avatar, 30, 630, 50, 50, null);
+        if (playerHP == 10) {
+            graphics.drawImage(hp1, 80, BorderHP, 100, 20, null);
+        }
+        if (playerHP == 9) {
+            graphics.drawImage(hp1, 80, BorderHP, 90, 20, null);
+        }
+        if (playerHP == 8) {
+            graphics.drawImage(hp1, 80, BorderHP, 80, 20, null);
+        }
+        if (playerHP == 7) {
+            graphics.drawImage(hp1, 80, BorderHP, 70, 20, null);
+        }
+        if (playerHP == 6) {
+            graphics.drawImage(hp1, 80, BorderHP, 60, 20, null);
+        }
+        if (playerHP == 5) {
+            graphics.drawImage(hp1, 80, BorderHP, 50, 20, null);
+        }
+        if (playerHP == 4) {
+            graphics.drawImage(hp1, 80, BorderHP, 40, 20, null);
+        }
+        if (playerHP == 3) {
+            graphics.drawImage(hp1, 80, BorderHP, 30, 20, null);
+        }
+        if (playerHP == 2) {
+            graphics.drawImage(hp1, 80, BorderHP, 20, 20, null);
+        }
+        if (playerHP == 1) {
+            graphics.drawImage(hp1, 80, BorderHP, 10, 20, null);
+        }
     }
 
     boolean isLanded = false;
@@ -146,8 +188,8 @@ public class Player extends GameObject {
             if(!isLanded){
                 gameRect.move(0, mass);
                 ++mass;
-                if(mass>3){
-                    mass = 3;
+                if(mass>4){
+                    mass = 4;
                 }
             }
         }
@@ -159,7 +201,7 @@ public class Player extends GameObject {
             isMoved = false;
         }
         if (InputManager.getInstance().isRight() && gameRect.getX() <= Level1Scene.BORDER_RIGHT) {
-            gameRect.move(3, 0);
+            gameRect.move(5, 0);
             isRight = true;
             isLeft = false;
             isDown = false;
@@ -167,7 +209,7 @@ public class Player extends GameObject {
             isMoved = true;
         }
         if (InputManager.getInstance().isLeft() && gameRect.getX() >= Level1Scene.BORDER_LEFT) {
-            gameRect.move(-3, 0);
+            gameRect.move(-5, 0);
             isLeft = true;
             isRight = false;
             isDown = false;
@@ -183,13 +225,26 @@ public class Player extends GameObject {
 //            isMoved = true;
 //        }
         if (InputManager.getInstance().isUp() && gameRect.getY() >= Level1Scene.BORDER_UP) {
-            gameRect.move(0, -3);
+            gameRect.move(0, -5);
             isRight = false;
             isLeft = false;
             isDown = false;
             isUp = true;
             isMoved = true;
             mass =1;
+        }
+    }
+    private int damage = 1;
+
+    @Override
+    public void onCollide(Collider other) {
+        if (other instanceof EnemyBullet) {
+            ((EnemyBullet) other).getHit(damage);
+            playerHP = playerHP - 1;
+        }
+        if (other instanceof EnemyController) {
+            ((EnemyController) other).getHit(damage);
+            playerHP = playerHP - 1;
         }
     }
 }

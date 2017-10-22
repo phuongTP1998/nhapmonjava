@@ -1,10 +1,12 @@
 package com.company;
 
+import com.company.controller.CollisionManager;
 import com.company.controller.ControllerManager;
 import com.company.gamescene.GameScene;
 import com.company.gamescene.Level1Scene;
 import com.company.utils.GameObject;
 
+import javax.sound.sampled.Clip;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -24,6 +26,7 @@ public class GameWindow extends Frame {
 
     InputManager inputManager;
     GameScene currentScene;
+    public Clip clip;
     public static GameWindow instance;
 
     public void setCurrentScene(GameScene currentScene){ this.currentScene = currentScene; }
@@ -107,6 +110,7 @@ public class GameWindow extends Frame {
                     }
                     GameObject.updateAll();
                     currentScene.update();
+                    CollisionManager.instance.update();
                     ControllerManager.instance.update();
                     repaint();
                 }
